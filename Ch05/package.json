@@ -1,0 +1,29 @@
+{
+  "name": "ch05",
+  "version": "1.0.0",
+  "description": "QA test site",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint meadowlark.js lib"
+  },
+  "keywords": [
+    "QA",
+    "test",
+    "site",
+    "AI"
+  ],
+  "author": "Jong Min Kim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^27.2.0",
+    "portfinder": "^1.0.28",
+    "puppeteer": "^10.2.0"
+  }
+}
